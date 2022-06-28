@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header, #footer{
+    height: 50px;
+    background-color: green;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    padding-left: 20px;
+}
+
+#root{
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
