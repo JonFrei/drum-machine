@@ -66,6 +66,7 @@ function App() {
 // {drumpad.name} add this later
   return(
   <div id='container'>
+    <h1 id='title' >Drum Machine</h1>
     <div id="drum-machine">
 
       <div id="btn-container"> 
@@ -95,9 +96,10 @@ function App() {
         </div>
       </div>
     </div>
-    <button id="GitHub-btn" class="btn btn-primary">
-      <a href="https://github.com/JonFrei">View Project on GitHub</a>
-    </button>
+    <div id="navigation-container">
+      <a id="return-btn" href="http://jonfrei.com/Resume_Project_Page/"><i className="large material-icons">arrow_back</i></a>
+      <a id="github-btn" href="https://github.com/JonFrei/drum-machine">View Project on GitHub</a>
+    </div>
   </div>
   
   )
